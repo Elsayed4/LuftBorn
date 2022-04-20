@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import Carts from './Components/Cards/Cards';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+{
+/* link of figma header :
+https://www.figma.com/file/yZSllXamQQDopYhLNGVRaR/Untitled?node-id=0%3A1 */
+}
+    
+       <Carts /> 
+    </>
   );
 }
 
 export default App;
+

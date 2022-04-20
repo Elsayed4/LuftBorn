@@ -1,0 +1,20 @@
+.Carts{
+    margin-block:50px;
+    .container{
+        max-width: 1320px;
+        margin: 0 auto;
+        .Carts_container{
+           display: grid;
+           grid-template-columns: repeat(8, 1fr);
+           grid-column-gap: 10px;
+            img{
+                max-width: 150px;
+                height: 125px;
+                border-radius: 16px 16px 0px 0px;
+              }
+        }   
+    }
+
+}
+
+

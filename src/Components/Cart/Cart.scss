@@ -1,0 +1,73 @@
+// start style cart
+.cart{
+    box-shadow: #77777729 0 1px 3px;
+    border-radius: 16px;
+   // card1
+   .cart1{
+       position: relative;
+       z-index: 1;
+       .GoThreeBars{
+           position: absolute;
+           right: 10px;
+           top: 10px;
+           z-index: 111;
+           color: #212121;
+           background-color: #F4F4F4;
+           width: 20px;
+           height: 20px;
+           padding: 5px;
+           border-radius: 50%;
+       }
+    .cart .cart_header{
+        position: relative;
+        img{
+            max-width: 140px;
+       }
+    }
+
+    .cart_footer{
+        padding-inline: 20px;
+         p{
+             sub{
+                color: #591FF8;
+                margin-left: 5px;
+             }
+         }
+        .cart_footer_price{
+            border-radius: 4px;
+            background-image: linear-gradient(to right, #2D1996,#591FF8);
+            color: #fff;
+            padding: 2px 4px;
+           }
+
+    }
+   }
+
+   // card2
+   .cart2{
+       ul{
+         margin: auto auto;
+           li{
+               margin-block-end: 10px;
+            
+           }
+           .delete{
+            color:#FF0060;
+        }
+       }
+   }
+
+   // d-none class used for swich between to cards
+.d-none{
+    display: none;
+}
+
+}
+
+// end style cart
+
+
+
+
+
+
